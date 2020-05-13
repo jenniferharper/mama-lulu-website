@@ -1,2 +1,2 @@
-# template-fours
-https://jenniferharper.github.io/template-fours/
+# Mama Lulu Website
+https://jenniferharper.github.io/mama-lulu-website

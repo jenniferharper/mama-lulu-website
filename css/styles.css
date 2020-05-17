@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:700,400|Raleway:300,400,600");
-html, body {
+body {
   position: relative;
   height: 100%;
   margin: 0;
   max-width: 2000px;
   overflow-x: hidden;
-  margin: 0 auto;
-  -webkit-overflow-scrolling: touch; }
+  margin: 0 auto 4%; }
 
 a, p {
   font-family: "Raleway", sans-serif;
@@ -111,6 +110,10 @@ h2 {
   fill: #03396e;
   max-height: 90vh;
   left: 0; }
+.hero .row {
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center; }
 .hero .row div,
 .hero img {
   max-height: 90vh;
@@ -126,7 +129,7 @@ h2 {
   padding-top: 8%; }
 
 .labels .row {
-  padding: 8% 0; }
+  padding: 0 4% 8%; }
 
 .animations .row {
   padding: 6%; }

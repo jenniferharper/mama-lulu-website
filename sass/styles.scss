@@ -2,14 +2,13 @@
 @import 'mixins';
 @import url('https://fonts.googleapis.com/css?family=Oswald:700,400|Raleway:300,400,600');
 
-html, body {
+body {
   position: relative;  
   height: 100%;
   margin: 0;
   max-width:2000px;
   overflow-x:hidden;
-  margin:0 auto;
-  -webkit-overflow-scrolling: touch;
+  margin:0 auto 4%;
 }
 
 a, p{ 
@@ -111,8 +110,6 @@ h2{
 }
 
 // ----- universal end
-
-
 .my-logo{
   img{max-width:50px;}
 }
@@ -124,12 +121,17 @@ h2{
   .me{opacity:0; position:fixed; right:20px;}
 }
 
-.hero{
+.hero{  
   svg{
     position: absolute;
     fill:$dark;
     max-height: 90vh;
     left: 0;
+  }
+  .row{
+    min-height:100vh;
+    justify-content: center;
+    align-items: center;
   }
   .row div,
   img{max-height:90vh; text-align: center;}
@@ -147,7 +149,7 @@ h2{
 .summary{padding-top:8%}
 
 .labels{
-  .row{padding:8% 0}
+  .row{padding:0 4% 8%}
 }
 
 

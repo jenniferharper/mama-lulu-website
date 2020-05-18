@@ -47,31 +47,23 @@ h2 {
 
 .media-box {
   position: relative;
-  height: 90vh;
+  height: 50vh;
   width: 100%;
   overflow: hidden; }
+  @media (min-width: 992px) {
+    .media-box {
+      height: 90vh; } }
 
 .media-box img {
-  width: 100%; }
-
-@media (min-width: 768px) {
-  .media-box img {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    -o-object-fit: cover;
-    object-fit: cover;
-    -o-object-position: 50% 50%;
-    object-position: 50% 50%; } }
-.responsive-img img {
   width: 100%;
-  height: auto; }
-
-.absolute-img svg,
-.absolute-img img {
-  position: absolute; }
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%; }
 
 .before::before {
   content: '';
@@ -93,37 +85,40 @@ h2 {
   left: -5%;
   z-index: 0; }
 
-.my-logo img {
-  max-width: 50px; }
-
 .jh {
   text-align: right;
   padding-top: 10px;
   padding-right: 10px; }
+  .jh .my-logo img {
+    max-width: 50px; }
   .jh .me {
     opacity: 0;
     position: fixed;
-    right: 20px; }
+    right: 5px; }
 
 .hero svg {
   position: absolute;
   fill: #03396e;
-  max-height: 90vh;
-  left: 0; }
-.hero .row {
-  min-height: 100vh;
-  justify-content: center;
-  align-items: center; }
-.hero .row div,
-.hero img {
-  max-height: 90vh;
-  text-align: center; }
+  left: 0;
+  z-index: 10; }
+@media (min-width: 992px) {
+  .hero svg {
+    max-height: 90vh; }
+  .hero .row {
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center; }
+  .hero .row div,
+  .hero img {
+    max-height: 90vh;
+    text-align: center; } }
 
 .branding {
   position: relative; }
-  .branding .container-fluid {
-    max-width: calc(100% - 100px);
-    margin: 0 auto; }
+  @media (min-width: 992px) {
+    .branding .container-fluid {
+      max-width: calc(100% - 100px);
+      margin: 0 auto; } }
 
 .summary {
   padding-top: 8%; }
@@ -154,16 +149,16 @@ h2 {
   top: 50%;
   left: 10%;
   transform: rotate(-45deg);
-  max-width: 150px; }
+  max-width: 100px; }
 .animations .c004 {
   z-index: -1;
-  max-width: 120px;
+  max-width: 100px;
   top: 15%;
   transform: rotate(55deg);
   right: 10%; }
 .animations .c005 {
   z-index: -1;
-  max-width: 150px;
+  max-width: 100px;
   right: 20%;
   transform: rotate(25deg); }
 

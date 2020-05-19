@@ -1,4 +1,5 @@
 (function($) { 
+	
 var controller = new ScrollMagic.Controller();
 TweenLite.defaultEase =  Circ.easeInOut;
 

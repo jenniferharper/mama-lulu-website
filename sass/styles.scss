@@ -12,7 +12,7 @@ body {
 }
 
 a, p{ 
-  font-family:$primary-font; 
+  font-family:$body-font; 
   font-size:16px; 
   position: relative;
   z-index: 1;
@@ -36,13 +36,9 @@ h1, h2, h3, h4, h5, h6 {
 h1{
   color:$contrast-one;
   font-size:60px; 
-  color:$contrast-one;
   @media(max-width:1140px){
   font-size: calc(16px + 2vw);
   }  
-  // @media(max-width:767px){
-  // font-size: calc(30px + 2vw);
-  // }  
 }
 
 h2{
@@ -121,6 +117,7 @@ h2{
 
 
 .hero{  
+  padding: 0 8%;
   svg{
     position: absolute;
     fill:$dark;    

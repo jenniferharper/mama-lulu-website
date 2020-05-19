@@ -31,8 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   color: #ce3909;
-  font-size: 60px;
-  color: #ce3909; }
+  font-size: 60px; }
   @media (max-width: 1140px) {
     h1 {
       font-size: calc(16px + 2vw); } }
@@ -96,24 +95,26 @@ h2 {
     position: fixed;
     right: 5px; }
 
-.hero svg {
-  position: absolute;
-  fill: #03396e;
-  left: 0;
-  top: 0;
-  width: 100%;
-  z-index: 10; }
-@media (min-width: 992px) {
+.hero {
+  padding: 0 8%; }
   .hero svg {
-    max-height: 90vh; }
-  .hero .row {
-    min-height: 100vh;
-    justify-content: center;
-    align-items: center; }
-  .hero .row div,
-  .hero img {
-    max-height: 90vh;
-    text-align: center; } }
+    position: absolute;
+    fill: #03396e;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10; }
+  @media (min-width: 992px) {
+    .hero svg {
+      max-height: 90vh; }
+    .hero .row {
+      min-height: 100vh;
+      justify-content: center;
+      align-items: center; }
+    .hero .row div,
+    .hero img {
+      max-height: 90vh;
+      text-align: center; } }
 
 .branding {
   position: relative; }

@@ -100,6 +100,8 @@ h2 {
   position: absolute;
   fill: #03396e;
   left: 0;
+  top: 0;
+  width: 100%;
   z-index: 10; }
 @media (min-width: 992px) {
   .hero svg {

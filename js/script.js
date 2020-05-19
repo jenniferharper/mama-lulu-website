@@ -30,7 +30,7 @@ var scene = new ScrollMagic.Scene({triggerElement: ".hero", triggerHook:'0'})
 				.addTo(controller);
 
 
-
+if ($( window ).width() >= 768) {
 // image zoom
 $(".branding").each(function() {
 	var tl = new TimelineMax();
@@ -47,6 +47,7 @@ $(".branding").each(function() {
 	.setTween(tl)
   .addTo(controller);   
   });
+}
 
 
 })(jQuery);

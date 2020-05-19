@@ -123,12 +123,12 @@ h2{
     fill:$dark;    
     left: 0;
     top:0;
-    width:100%;
+    width:90%;
     z-index: 10;
   }
 
   @media (min-width:992px){
-  svg{max-height: 90vh;}
+  svg{max-height: 90vh; width:100%}
   .row{
     min-height:100vh;
     justify-content: center;

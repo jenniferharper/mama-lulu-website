@@ -102,11 +102,12 @@ h2 {
     fill: #03396e;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 90%;
     z-index: 10; }
   @media (min-width: 992px) {
     .hero svg {
-      max-height: 90vh; }
+      max-height: 90vh;
+      width: 100%; }
     .hero .row {
       min-height: 100vh;
       justify-content: center;

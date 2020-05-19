@@ -2,6 +2,10 @@
 @import 'mixins';
 @import url('https://fonts.googleapis.com/css?family=Oswald:700,400|Raleway:300,400,600');
 
+
+html{
+  overflow-x:hidden;
+}
 body {
   position: relative;  
   height: 100%;
@@ -123,7 +127,7 @@ h2{
     fill:$dark;    
     left: 0;
     top:0;
-    width:90%;
+    width:97%;
     z-index: 10;
   }
 
